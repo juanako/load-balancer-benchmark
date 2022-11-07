@@ -4,7 +4,7 @@ services:
     network_mode: host
     image: haproxy:2.1.2
     ports:
-      - 8090:8090
+      - 8085:8085
     ulimits:
       nproc: 65535
       nofile:
